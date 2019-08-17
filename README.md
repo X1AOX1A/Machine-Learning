@@ -10,7 +10,7 @@
 2. 监督学习算法
 3. 非监督学习算法
 
-所有已完成的笔记都会发布到 [CSDN Blog](https://blog.csdn.net/weixin_45488228) 上，感兴趣的小伙伴可以关注一下，我将会坚持更新机器学习以及深度学习的笔记。所有的笔记都是由 Jupyter Notebook 写成的，Notebook 可以在这个 Github 库内找到。
+所有已完成的笔记都会发布到 [CSDN Blog](https://blog.csdn.net/weixin_45488228) 上，感兴趣的小伙伴可以关注一下，我将会坚持更新机器学习以及深度学习的笔记。所有的笔记都是由 Jupyter Notebook 写成的，Notebook 可以在这个 [Github](https://github.com/X1AOX1A/Machine-Learning#朴素贝叶斯) 库内找到。
 
 ## 1. 机器学习基础
 
