@@ -51,6 +51,8 @@
 - [x] [监督学习 | SVM 之线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99687673)
 - [ ] 监督学习 | SVM 之非线性支持向量机原理
 
+### 集成算法
+
 ### 感知器算法
 
 
