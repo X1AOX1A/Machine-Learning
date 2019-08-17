@@ -49,7 +49,7 @@
 ### 支持向量机
 
 - [x] [监督学习 | SVM 之线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99687673)
-- [ ] 监督学习 | SVM 之非线性支持向量机原理
+- [x] [监督学习 | SVM 之非线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99698777)
 - [ ] 监督学习 | SVR 之支持向量回归原理
 
 ### 集成算法
