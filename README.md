@@ -55,6 +55,8 @@
 
 - [x] [监督学习 | SVM 之非线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99698777)
 
+- [x] [监督学习 | SVM 之支持向量机Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99711744)
+
   
 
 ### 集成算法
