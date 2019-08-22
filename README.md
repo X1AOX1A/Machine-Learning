@@ -37,10 +37,11 @@
 
 ## 2. 监督学习
 
-### 朴素贝叶斯
+### 贝叶斯
 
 - [x] [监督学习 | 朴素贝叶斯原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/98505200)
 - [x] [监督学习 | 朴素贝叶斯之Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/98505609)
+- [ ] 监督学习 | 高斯贝叶斯原理及Sklearn实现
 
 ### 决策树
 
