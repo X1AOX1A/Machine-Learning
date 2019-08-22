@@ -73,6 +73,6 @@
 
 - [x] [监督学习 | 集成学习之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
 
-- [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现]()
+- [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
 
 ## 3. 非监督学习
