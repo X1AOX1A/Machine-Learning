@@ -15,6 +15,12 @@
 > Q：为什么文章经常会变成 404 ？
 > A：因为我会经常更新以前的文章，而修改过的文章需要一段时间进行审核。
 
+关于各类机器学习算法的优点，可以参考[这篇文章](https://www.hackingnote.com/en/machine-learning/algorithms-pros-and-cons)
+
+关于各类机器学习算法的应用场合，可以参考[这篇文章](https://cloud.tencent.com/developer/article/1064119)
+
+
+
 ## 1. 机器学习基础
 
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
@@ -41,7 +47,6 @@
 - [x] [监督学习 | 决策树原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/98665115)
 - [x] [监督学习 | 决策树之Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/98751821)
 - [x] [监督学习 | 决策树之网络搜索](https://blog.csdn.net/weixin_45488228/article/details/99253498)
-- [ ] 监督学习 | 决策树之随机森林
 
 ### 回归分析
 
@@ -57,12 +62,14 @@
 
 - [x] [监督学习 | SVM 之支持向量机Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99711744)
 
-  
+### K 近邻
+
+- [ ] 监督学习 | KNN 原理及Sklearn实现
 
 ### 集成算法
 
+- [x] [监督学习 | 集成学习之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
 
-
-
+- [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现]()
 
 ## 3. 非监督学习
