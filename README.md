@@ -33,8 +33,6 @@
 
 - [x] [机器学习 | 梯度下降原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/99506171)
 
-- [ ] 机器学习 | 范数正则化：L1范数、L2范数
-
   
 
 ## 2. 监督学习
