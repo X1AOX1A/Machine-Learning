@@ -33,6 +33,8 @@
 
 - [x] [机器学习 | 梯度下降原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/99506171)
 
+- [x] [机器学习 | 早期停止法原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/100101549)
+
   
 
 ## 2. 监督学习
