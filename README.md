@@ -56,7 +56,7 @@
 - [x] [监督学习 | 线性回归 之多元线性回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99345417)
 - [x] [监督学习 | 非线性回归 之多项式回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100068461)
 - [x] [监督学习 | 线性回归 之正则线性模型原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100087447)
-- [ ] 监督学习 | 线性分类 之Logistic回归原理及Sklearn实现
+- [x] [监督学习 | 线性分类 之Logistic回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100110734)
 
 ### 支持向量机
 
