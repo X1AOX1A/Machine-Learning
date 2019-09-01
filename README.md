@@ -66,7 +66,7 @@
 
 - [x] [监督学习 | SVM 之支持向量机Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99711744)
 
-### K 近邻
+### KNN
 
 - [ ] 监督学习 | KNN 原理及Sklearn实现
 
@@ -77,3 +77,14 @@
 - [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
 
 ## 3. 非监督学习
+
+### 聚类算法
+
+- [ ] 非监督学习 | KMeans 原理及Sklearn实现
+- [ ] 非监督学习 | 层次聚类原理及Sklearn实现
+- [ ] 非监督学习 | DBSCAN 原理及Sklearn实现
+
+### 降维算法
+
+
+
