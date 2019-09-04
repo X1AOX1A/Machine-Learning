@@ -8,7 +8,7 @@
 
 1. 机器学习基础
 2. 监督学习算法
-3. 非监督学习算法
+3. 无监督学习算法
 
 所有已完成的笔记都会发布到 [CSDN Blog](https://blog.csdn.net/weixin_45488228) 上，感兴趣的小伙伴可以关注一下，我将会坚持更新机器学习以及深度学习的笔记。所有的笔记都是由 Jupyter Notebook 写成的，Notebook 可以在这个 [Github](https://github.com/X1AOX1A/Machine-Learning#朴素贝叶斯) 库内找到。
 
@@ -26,6 +26,8 @@
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
 
 - [x] [机器学习 | 回归评估指标](https://blog.csdn.net/weixin_45488228/article/details/98897061)
+
+- [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
 
 - [x] [机器学习 | 模型选择](https://blog.csdn.net/weixin_45488228/article/details/99115070)
 
@@ -54,9 +56,10 @@
 ### 回归分析
 
 - [x] [监督学习 | 线性回归 之多元线性回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99345417)
-- [x] [监督学习 | 非线性回归 之多项式回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100068461)
 - [x] [监督学习 | 线性回归 之正则线性模型原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100087447)
+- [ ] 监督学习 | 线性回归 之Softmax回归原理及Sklearn实现
 - [x] [监督学习 | 线性分类 之Logistic回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100110734)
+- [x] [监督学习 | 非线性回归 之多项式回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100068461)
 
 ### 支持向量机
 
@@ -80,11 +83,10 @@
 
 ### 聚类算法
 
-- [ ] 非监督学习 | 聚类评估指标
-- [ ] 非监督学习 | KMeans 原理及Sklearn实现
-- [ ] 非监督学习 | 层次聚类原理及Sklearn实现
-- [ ] 非监督学习 | DBSCAN 原理及Sklearn实现
-- [ ] 非监督学习 | GMM 高斯混合原理及Sklearn实现
+- [ ] 无监督学习 | KMeans 原理及Sklearn实现
+- [ ] 无监督学习 | 层次聚类原理及Sklearn实现
+- [ ] 无监督学习 | DBSCAN 原理及Sklearn实现
+- [ ] 无监督学习 | 高斯混合与EM算法原理及Sklearn实现
 
 ### 降维算法
 
