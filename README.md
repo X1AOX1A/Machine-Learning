@@ -29,6 +29,8 @@
 
 - [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
 
+- [ ] [机器学习 | 距离计算](https://blog.csdn.net/weixin_45488228/article/details/100593643)
+
 - [x] [机器学习 | 模型选择](https://blog.csdn.net/weixin_45488228/article/details/99115070)
 
 - [x] [机器学习 | 网络搜索及可视化](https://blog.csdn.net/weixin_45488228/article/details/99235845)
@@ -76,7 +78,6 @@
 ### 集成算法
 
 - [x] [监督学习 | 集成学习之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
-
 - [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
 
 ## 3. 非监督学习
