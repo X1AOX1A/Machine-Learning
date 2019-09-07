@@ -17,7 +17,6 @@
 
 关于各类机器学习算法的应用场合，可以参考[这篇文章](https://cloud.tencent.com/developer/article/1064119)
 
-***
 # 1. 机器学习基础
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
 
@@ -35,7 +34,6 @@
 
 - [x] [机器学习 | 早期停止法原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/100101549)
   
-***
 # 2. 监督学习
 ## 2.1 分类算法
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
@@ -57,7 +55,6 @@
 ### KNN
 - [ ] 监督学习 | KNN 原理及Sklearn实现
 
-***
 ## 2.2 回归算法
 - [x] [机器学习 | 回归评估指标](https://blog.csdn.net/weixin_45488228/article/details/98897061)
 
@@ -74,7 +71,6 @@
 ### 非线性回归
 - [x] [监督学习 | 非线性回归 之多项式回归原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100068461)
 
-***
 ## 2.3 集成方法
 ### Bagging、随机森林
 - [x] [监督学习 | 集成学习之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
@@ -82,7 +78,6 @@
 ### AdaBoost
 - [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
 
-***
 # 3. 无监督学习
 
 ## 3.1 聚类算法
@@ -102,5 +97,4 @@
 ### GMM 高斯混合
 - [ ] 无监督学习 | GMM 高斯混合原理及Sklearn实现
 
-***
 ## 3.2 降维算法
