@@ -86,7 +86,7 @@
 
 ### KMeans
 - [x] [无监督学习 | KMeans与KMeans++原理](https://blog.csdn.net/weixin_45488228/article/details/100612021)
-- [ ] 无监督学习 | KMeans之Skleaen实现：电影评分聚类
+- [x] [无监督学习 | KMeans之Sklearn实现：电影评分聚类](https://blog.csdn.net/weixin_45488228/article/details/100637019)
 
 ### 层次聚类
 - [ ] 无监督学习 | 层次聚类原理及Sklearn实现
