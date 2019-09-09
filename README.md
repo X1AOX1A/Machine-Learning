@@ -19,21 +19,14 @@
 
 # 1. 机器学习基础
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
-
 - [x] [机器学习 | 回归评估指标](https://blog.csdn.net/weixin_45488228/article/details/98897061)
-
 - [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
-
 - [x] [机器学习 | 距离计算](https://blog.csdn.net/weixin_45488228/article/details/100593643)
-
 - [x] [机器学习 | 模型选择](https://blog.csdn.net/weixin_45488228/article/details/99115070)
-
+- [x] [机器学习 | 特征缩放](https://blog.csdn.net/weixin_45488228/article/details/100680503)
 - [x] [机器学习 | 网络搜索及可视化](https://blog.csdn.net/weixin_45488228/article/details/99235845)
-
 - [x] [机器学习 | 梯度下降原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/99506171)
-
 - [x] [机器学习 | 早期停止法原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/100101549)
-  
 # 2. 监督学习
 ## 2.1 分类算法
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
