@@ -37,7 +37,7 @@
 
 ### 决策树
 - [x] [监督学习 | ID3 决策树原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/98665115)
-- [ ] 监督学习 | ID3 & C4.5 决策树原理
+- [x] [监督学习 | ID3 & C4.5 决策树原理](https://blog.csdn.net/weixin_45488228/article/details/102136999)
 - [ ] 监督学习 | CART 分类回归树原理
 - [x] [监督学习 | 决策树之Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/98751821)
 - [x] [监督学习 | 决策树之网络搜索](https://blog.csdn.net/weixin_45488228/article/details/99253498)
