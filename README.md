@@ -27,6 +27,7 @@
 - [x] [机器学习 | 网络搜索及可视化](https://blog.csdn.net/weixin_45488228/article/details/99235845)
 - [x] [机器学习 | 梯度下降原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/99506171)
 - [x] [机器学习 | 早期停止法原理及Python实现](https://blog.csdn.net/weixin_45488228/article/details/100101549)
+- [x] [机器学习 | EM 算法原理](https://blog.csdn.net/weixin_45488228/article/details/102267311)
 # 2. 监督学习
 ## 2.1 分类算法
 - [x] [机器学习 | 分类评估指标](https://blog.csdn.net/weixin_45488228/article/details/98896294)
@@ -42,13 +43,13 @@
 - [x] [监督学习 | 决策树之Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/98751821)
 - [x] [监督学习 | 决策树之网络搜索](https://blog.csdn.net/weixin_45488228/article/details/99253498)
 
-### 支持向量机
+### SVM 支持向量机
 - [x] [监督学习 | SVM 之线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99687673)
 - [x] [监督学习 | SVM 之非线性支持向量机原理](https://blog.csdn.net/weixin_45488228/article/details/99698777)
 - [x] [监督学习 | SVM 之支持向量机Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/99711744)
 
-### KNN
-- [ ] 监督学习 | KNN 原理及Sklearn实现
+### KNN K近邻
+- [ ] 监督学习 | KNN K近临原理及Sklearn实现
 
 ## 2.2 回归算法
 - [x] [机器学习 | 回归评估指标](https://blog.csdn.net/weixin_45488228/article/details/98897061)
@@ -79,7 +80,7 @@
 - [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
 - [x] [机器学习 | 距离计算](https://blog.csdn.net/weixin_45488228/article/details/100593643)
 
-### KMeans
+### KMeans K均值
 - [x] [无监督学习 | KMeans与KMeans++原理](https://blog.csdn.net/weixin_45488228/article/details/100612021)
 - [x] [无监督学习 | KMeans之Sklearn实现：电影评分聚类](https://blog.csdn.net/weixin_45488228/article/details/100637019)
 
@@ -93,3 +94,15 @@
 - [ ] 无监督学习 | GMM 高斯混合原理及Sklearn实现
 
 ## 3.2 降维算法
+
+### PCA 主成分分析
+
+- [ ] 无监督学习 | PCA 主成分分析原理及Sklearn实现
+
+### 随机投影
+
+- [ ]  无监督学习 | 随机投影原理及Sklearn实现
+
+### ICA 独立主成分分析
+
+- [ ] 无监督学习 | ICA 独立出成分分析原理及Sklearn实现
