@@ -91,7 +91,7 @@
 - [ ] 无监督学习 | DBSCAN 原理及Sklearn实现
 
 ### GMM 高斯混合
-- [ ] 无监督学习 | GMM 高斯混合原理及Sklearn实现
+- [x] [无监督学习 | GMM 高斯混合原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102463264)
 
 ## 3.2 降维算法
 
