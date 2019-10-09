@@ -69,10 +69,10 @@
 
 ## 2.3 集成方法
 ### Bagging、随机森林
-- [x] [监督学习 | 集成学习之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
+- [x] [监督学习 | 集成学习 之Bagging、随机森林及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/100013912)
 
 ### AdaBoost
-- [x] [监督学习 | 集成学习之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
+- [x] [监督学习 | 集成学习 之AdaBoost原理及Slearn实现](https://blog.csdn.net/weixin_45488228/article/details/100027978)
 
 # 3. 无监督学习
 
@@ -80,18 +80,18 @@
 - [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
 - [x] [机器学习 | 距离计算](https://blog.csdn.net/weixin_45488228/article/details/100593643)
 
-### KMeans K均值
-- [x] [无监督学习 | KMeans与KMeans++原理](https://blog.csdn.net/weixin_45488228/article/details/100612021)
-- [x] [无监督学习 | KMeans之Sklearn实现：电影评分聚类](https://blog.csdn.net/weixin_45488228/article/details/100637019)
+### 原型聚类 - KMeans
+- [x] [无监督学习 | KMeans 与 KMeans++ 原理](https://blog.csdn.net/weixin_45488228/article/details/100612021)
+- [x] [无监督学习 | KMeans 之Sklearn实现：电影评分聚类](https://blog.csdn.net/weixin_45488228/article/details/100637019)
 
-### 层次聚类
+### 层次聚类 
 - [ ] 无监督学习 | 层次聚类原理及Sklearn实现
 
-### DBSCAN
-- [ ] 无监督学习 | DBSCAN 原理及Sklearn实现
+### 密度聚类 - DBSCAN
+- [x] [无监督学习 | DBSCAN 原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102470231)
 
 ### GMM 高斯混合
-- [x] [无监督学习 | GMM 高斯混合原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102463264)
+- [x] [无监督学习 | GMM 高斯混合聚类原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102463264)
 
 ## 3.2 降维算法
 
@@ -105,4 +105,4 @@
 
 ### ICA 独立主成分分析
 
-- [ ] 无监督学习 | ICA 独立出成分分析原理及Sklearn实现
+- [ ] 无监督学习 | ICA 独立主成分分析原理及Sklearn实现
