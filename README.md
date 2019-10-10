@@ -80,17 +80,17 @@
 - [x] [机器学习 | 聚类评估指标](https://blog.csdn.net/weixin_45488228/article/details/100549820)
 - [x] [机器学习 | 距离计算](https://blog.csdn.net/weixin_45488228/article/details/100593643)
 
-### 原型聚类 - KMeans
+### 原型聚类 - KMeans K均值
 - [x] [无监督学习 | KMeans 与 KMeans++ 原理](https://blog.csdn.net/weixin_45488228/article/details/100612021)
 - [x] [无监督学习 | KMeans 之Sklearn实现：电影评分聚类](https://blog.csdn.net/weixin_45488228/article/details/100637019)
 
-### 层次聚类 
-- [ ] 无监督学习 | 层次聚类原理及Sklearn实现
+### 层次聚类 - 凝聚聚类
+- [x] [无监督学习 | 层次聚类 之凝聚聚类原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102493562)
 
 ### 密度聚类 - DBSCAN
 - [x] [无监督学习 | DBSCAN 原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102470231)
 
-### GMM 高斯混合
+### 概率聚类 - GMM 高斯混合
 - [x] [无监督学习 | GMM 高斯混合聚类原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102463264)
 
 ## 3.2 降维算法
