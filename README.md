@@ -97,7 +97,7 @@
 
 ### PCA 主成分分析
 
-- [ ] 无监督学习 | PCA 主成分分析原理及Sklearn实现
+- [x] [无监督学习 | PCA 主成分分析原理及Sklearn实现](https://blog.csdn.net/weixin_45488228/article/details/102557013)
 
 ### 随机投影
 
