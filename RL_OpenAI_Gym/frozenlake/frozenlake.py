@@ -1,7 +1,5 @@
-import sys
-from contextlib import closing
-
 import numpy as np
+import sys
 from six import StringIO, b
 
 from gym import utils
@@ -11,9 +9,6 @@ LEFT = 0
 DOWN = 1
 RIGHT = 2
 UP = 3
-
-# obtain one-step dynamics for dynamic programming setting
-self.P = P
 
 MAPS = {
     "4x4": [
@@ -33,43 +28,6 @@ MAPS = {
         "FFFHFFFG"
     ],
 }
-
-
-def generate_random_map(size=8, p=0.8):
-    """Generates a random valid map (one that has a path from start to goal)
-    :param size: size of each side of the grid
-    :param p: probability that a tile is frozen
-    """
-    valid = False
-
-    # DFS to check that it's a valid path.
-    def is_valid(res):
-        frontier, discovered = [], set()
-        frontier.append((0,0))
-        while frontier:
-            r, c = frontier.pop()
-            if not (r,c) in discovered:
-                discovered.add((r,c))
-                directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-                for x, y in directions:
-                    r_new = r + x
-                    c_new = c + y
-                    if r_new < 0 or r_new >= size or c_new < 0 or c_new >= size:
-                        continue
-                    if res[r_new][c_new] == 'G':
-                        return True
-                    if (res[r_new][c_new] not in '#H'):
-                        frontier.append((r_new, c_new))
-        return False
-
-    while not valid:
-        p = min(1, p)
-        res = np.random.choice(['F', 'H'], (size, size), p=[p, 1-p])
-        res[0][0] = 'S'
-        res[-1][-1] = 'G'
-        valid = is_valid(res)
-    return ["".join(x) for x in res]
-
 
 class FrozenLakeEnv(discrete.DiscreteEnv):
     """
@@ -101,12 +59,11 @@ class FrozenLakeEnv(discrete.DiscreteEnv):
 
     def __init__(self, desc=None, map_name="4x4",is_slippery=True):
         if desc is None and map_name is None:
-            desc = generate_random_map()
+            raise ValueError('Must provide either desc or map_name')
         elif desc is None:
             desc = MAPS[map_name]
         self.desc = desc = np.asarray(desc,dtype='c')
         self.nrow, self.ncol = nrow, ncol = desc.shape
-        self.reward_range = (0, 1)
 
         nA = 4
         nS = nrow * ncol
@@ -118,15 +75,14 @@ class FrozenLakeEnv(discrete.DiscreteEnv):
 
         def to_s(row, col):
             return row*ncol + col
-
         def inc(row, col, a):
-            if a == LEFT:
+            if a==0: # left
                 col = max(col-1,0)
-            elif a == DOWN:
+            elif a==1: # down
                 row = min(row+1,nrow-1)
-            elif a == RIGHT:
+            elif a==2: # right
                 col = min(col+1,ncol-1)
-            elif a == UP:
+            elif a==3: # up
                 row = max(row-1,0)
             return (row, col)
 
@@ -154,10 +110,15 @@ class FrozenLakeEnv(discrete.DiscreteEnv):
                             done = bytes(newletter) in b'GH'
                             rew = float(newletter == b'G')
                             li.append((1.0, newstate, rew, done))
+        
+        # obtain one-step dynamics for dynamic programming setting
+        self.P = P
 
         super(FrozenLakeEnv, self).__init__(nS, nA, P, isd)
 
-    def render(self, mode='human'):
+    def _render(self, mode='human', close=False):
+        if close:
+            return
         outfile = StringIO() if mode == 'ansi' else sys.stdout
 
         row, col = self.s // self.ncol, self.s % self.ncol
@@ -171,5 +132,4 @@ class FrozenLakeEnv(discrete.DiscreteEnv):
         outfile.write("\n".join(''.join(line) for line in desc)+"\n")
 
         if mode != 'human':
-            with closing(outfile):
-                return outfile.getvalue()
+            return outfile
